@@ -11,6 +11,7 @@ header {
     vertical-align: middle;
     text-align: center;
     padding: 10px 0 20px 0;
+    width: 200vh;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -30,6 +31,7 @@ header h2 {
 
 header img {
     width: 100%;
+    height: 160px;
 }
 
 header nav ul {
@@ -160,13 +162,15 @@ main h2 {
 
 .us p {
     float: left;
-    width: 75%;
+    width: 100%;
 }
 
 .us img {
     float: right;
     width: 50%;
-    height: 30%;
+    height: 45vh;
+    padding-left: 5%;
+    padding-bottom: 5%;
 }
 
 .retseptid-header {
@@ -175,8 +179,8 @@ main h2 {
 
 @media only screen and (max-width: 500px) {
     header img {
-        margin-left: -25px;
-        width: 112%;
+        margin-left: -5.8%;
+        width: 111.5%;
     }
 
     hr {
