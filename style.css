@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.pictures img {
+    width: 100%;
+}
+
+header {
+    display: table;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px 0 20px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header h1 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    font-size: 36px;
+    margin-bottom: -15px;
+    margin-top: -20px;
+}
+
+header h2 {
+    font-weight: 500;
+    font-size: 20px;
+    font-style: italic;
+}
+
+header img {
+    width: 100%;
+}
+
+header nav ul {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: fit-content;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 16px 16px;
+}
+
+nav ul li a {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+footer {
+    width: calc(100% - 80px);
+    padding: 15px 40px 0px;
+    background-color: lightgray;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+footer ul {
+    width: fit-content;
+    float: left;
+    padding-left: 0px;
+}
+
+footer ul li {
+    display: block;
+    padding: 0 0 0 0;
+}
+
+footer ul li a {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.footer-sm {
+    width: 45px;
+    float: right;
+}
+
+.footer-sm img {
+    width: 100%;
+    margin-bottom: 2px;
+}
+
+hr {
+    display: none;
+}
+
+.border {
+    border-top: 1px solid darkgrey;
+    border-right: 1px solid darkgrey;
+    border-left: 1px solid darkgrey;
+    padding: 5%;
+    margin-bottom: -20px;
+}
+
+main {
+    margin-top: -10px;
+}
+
+h2:first-child {
+    font-size: 22px;
+}
+
+main h2 {
+    margin-top: 10px;
+    margin-bottom: -10px;
+    font-size: 28px;
+    font-weight: 200;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.food-image {
+    margin: 10px;
+    position: relative;
+    text-align: center;
+}
+
+.post-header {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    background-color: white;
+    padding: 5px;
+
+    position: absolute;
+    top: 40%;
+    left: 15%;
+}
+
+.pictures {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    flex-direction: row;
+    display: -webkit-flex;
+    -webkit-flex-flow: row wrap;
+    display: -moz-flex;
+    -moz-flex-flow: row wrap;
+}
+
+.pictures img{
+    margin-top: 50px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.us p {
+    float: left;
+    width: 75%;
+}
+
+.us img {
+    float: right;
+    width: 50%;
+    height: 30%;
+}
+
+.retseptid-header {
+    display: none;
+}
+
+@media only screen and (max-width: 500px) {
+    header img {
+        margin-left: -25px;
+        width: 112%;
+    }
+
+    hr {
+        display: block;
+        border-width: 2px;
+        width: 45%;
+        margin-bottom: 5px;
+        color: black;
+    }
+
+    .pictures {
+        flex-direction: column;
+    }
+
+    .us p {
+        width: 100%;
+    }
+
+    .us img {
+        display: none;
+    }
+
+    .retseptid-header {
+        display: block;
+    }
+}
